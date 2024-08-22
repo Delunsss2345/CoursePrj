@@ -1,0 +1,19 @@
+# Eclipse project files
+.project
+.classpath
+
+# Build output
+bin/
+
+# IDE-specific files
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+lib/
+
+# Java class files
+*.class
