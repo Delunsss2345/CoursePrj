@@ -161,7 +161,7 @@ public class CourseList {
 	 */
 	public Course[] searchCourseRelatively(String title) {
 		if (title == null) {
-			throw new IllegalArgumentException("The course ID cannot be null.");
+			throw new IllegalArgumentException("The title cannot be null.");
 		}
 		
 		if (this.count == 0) {
